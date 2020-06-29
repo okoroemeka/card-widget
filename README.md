@@ -16,13 +16,28 @@ npm install --save card-widget
 import React, { Component } from 'react'
 
 import MyComponent from 'card-widget'
-import 'card-widget/dist/index.css'
 
 class Example extends Component {
   render() {
     return <MyComponent />
   }
 }
+```
+
+## Props
+
+```txt
+  cardWidth: number
+
+  cardHight: number
+
+  backgroundColor: string
+
+  borderRadius: number
+
+  boxShadow: string
+
+  children: React component | element
 ```
 
 ## License

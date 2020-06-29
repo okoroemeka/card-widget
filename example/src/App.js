@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'card-widget'
-import 'card-widget/dist/index.css'
+import { Card } from 'card-widget'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Card />
 }
 
 export default App
